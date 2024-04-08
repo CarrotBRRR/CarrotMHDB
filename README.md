@@ -1,1 +1,2 @@
-# MHGU-Resources
+# CarrotMHDB
+CarrotBRRR's Monster Hunter Database
