@@ -1,0 +1,111 @@
+#HomeTitle{
+    background-color: #355E3B;
+    color: #fff;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #122424;
+  }
+
+html{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #122424;
+    color: #fff;
+    font-family: 'consolas', sans-serif;
+    overflow: scroll;
+    margin: 5%;
+    padding: 5%;
+    margin-top: 0%;
+}
+
+.navbar {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.logo{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    display: flex;
+    white-space: nowrap;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar button{
+    background-color: #355E3B;
+    color: #fff;
+    border: none;
+    padding: 10px 20px; 
+    cursor: pointer;
+    font-size: 16px;
+}
+.navbar button.logo{
+    padding: 0;
+    margin: 0;
+}
+.navbar button:hover{
+    background-color:#829c79;
+    color: #fff;
+}
+.navbar button:active{
+    background-color: #05472A;
+    color: #fff;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    margin: 0;
+    padding: 0;
+
+}
+
+.TableTitle{
+    background-color: #355E3B;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+table{
+    display: block;
+    width: 80%;
+    margin: 0;
+    border: 0px solid #333;
+    padding: 10px;
+}
+th, td{
+    text-align: left;
+    border: 5px solid #333;
+    padding: 10px;
+}
+
